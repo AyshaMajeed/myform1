@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+       
+       h1{
+        text-align: center;
+       }
+       p{
+        text-align: center;
+       }
+       .Name{
+        margin: 10px;
+        width: 40%;
+        padding: 10px;
+       }
+
+          
+
+     .maindiv{
+        width: 44%;
+        margin-left: 28%;
+        margin-right: 28%;
+        border: 1px solid cadetblue;
+     }
+
+     .emailPass{
+        width: 90%;
+        margin:10px;
+
+        padding: 10px;
+     }
+
+     span{
+        margin-left: 10px;
+     }
+     Table{
+        border: 1px solid;
+        margin: 10px;
+     }
+     .spanBorder{
+        border: 1px solid cadetblue;
+        padding: 10px;
+     }
+     .genderdiv{
+        margin: 10px;
+        padding: 3px;
+        display: inline-block;
+   
+     
+     }
+
+     .genderdivStyle{
+        border: 1px solid white;
+     }
+
+     .gendercolor{
+        color: cadetblue;
+     }
+     .btnsignup{
+       background-color: #3498db;
+       color: white;
+       padding: 10px 20px;
+       border: none;
+       border-radius: 20px;
+       cursor: pointer;
+       font-size: 16px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       
+  
+
+     }
+
+     .btnposition{
+        margin-left: 40%;
+        margin-right: 40%;
+        
+ 
+     }
+
+    </style>
+
+
+</head>
+
+<body>
+  
+    <div class="maindiv">
+      <h1>
+        Create a new account
+      </h1>
+      <p>it's quick and easy</p>
+
+      <form action="">
+
+        <input class="Name" type="text" value="" placeholder="First Name" required name="firstname">
+        <input class="Name" type="text" value="" placeholder="Last Name" required name="lastname"> <br>
+        <input class="emailPass" type="email" value="" placeholder="Mobile Number or email address" required name="email"> <br>
+        <input class="emailPass" type="password" value="" placeholder="New password" required name="newpassword"><br>
+          <span >Date of birth:</span>  <br>
+        <input class="emailPass" type="date" name="date" value="" required>
+         <span>gender:</span>  <br>
+       
+<div class="genderdivStyle">
+  <div class="genderdiv">
+    <label class="spanBorder">
+      <input class="gendercolor" type="radio" value="female" name="gender" required> Female
+    </label>
+  </div>
+  <div class="genderdiv">
+    <label class="spanBorder">
+      <input class="gendercolor" type="radio" value="male" name="gender" required> Male
+    </label>
+  </div>
+  <div class="genderdiv">
+    <label class="spanBorder">
+      <input class="gendercolor" type="radio" value="custom" name="gender" required> Custom
+    </label>
+  </div>
+</div>
+
+
+        <input class="btnsignup btnposition" type="button" name="btn" value="signup" >         
+      </form>
+    </div>
+    
+</body>
+</html>
